@@ -1,0 +1,20 @@
+.iframe-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 9px solid  #143760;
+    
+}   
+.third-section .subtitle{
+    font-size: 1.5rem;
+    margin: 9px 0 0 0 ;
+    
+}
+.third-section .names{
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}

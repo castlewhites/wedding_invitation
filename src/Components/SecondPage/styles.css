@@ -1,0 +1,34 @@
+
+.page__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.8;
+    
+}
+.page__info img{
+    margin: 0 auto;
+}
+.second-section .subtitle{
+    font-size: 1.5rem;
+    margin: 9px 0 0 0 ;
+    
+}
+.second-section .names{
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}
+.date{
+    width: 120px;
+    background: linear-gradient(to right, #3992ad, #143760);  color: rgba(255, 255, 255, 0.882);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    font-weight: normal;
+    font-family: 'abhaya-libre', cursive;
+    margin-bottom: 10px;
+}

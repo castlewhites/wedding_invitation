@@ -1,0 +1,56 @@
+.fourth-section .subtitle{
+    font-size: 1.5rem;
+    margin: 9px 0 0 0 ;
+    
+}
+.fourth-section .names{
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}
+
+.dresscode-content {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dresscode-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-content h3{
+    font-family: 'abhaya-libre', cursive;
+    margin-bottom: 3px;
+}
+.text-content p{
+    font-family: 'abhaya-libre', cursive;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.833);
+}
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #0b3f4f;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-content {
+  width: 60%;
+  padding: 0 1rem;
+  text-align: left;
+}
+

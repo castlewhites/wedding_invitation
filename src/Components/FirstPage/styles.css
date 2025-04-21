@@ -1,0 +1,95 @@
+.save-date-section{
+  height: 90%;
+  width: 100%;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye bien el contenido */
+  align-items: center;
+  text-align: center;
+
+}
+.subtitle {
+
+  font-family: 'abhaya-libre', cursive;
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+}
+.names {
+  font-family: 'fuente-bonita', cursive;
+  font-size: 4.3rem;
+  font-weight: 500;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.invitation-text {
+  color: #27677a;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.guests {
+  font-size: 1.7rem;
+  font-family: 'abhaya-libre', cursive;
+  
+  margin-bottom: 20px;
+
+}
+
+.wedding-button {
+  background: linear-gradient(to right, #3992ad, #143760);  color: rgba(255, 255, 255, 0.882);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-family: 'abhaya-libre', cursive;
+  margin-bottom: 10px;
+}
+
+.wedding-date {
+  font-family: 'abhaya-libre', cursive;
+  font-size: 1.5rem;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.icon-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  .icons-section {
+    gap: 10px;
+    justify-content: space-around;
+  }
+
+  .icon-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-card {
+    font-size: 10px;
+  }
+}

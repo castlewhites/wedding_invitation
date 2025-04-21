@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+@font-face {
+  font-family: 'abhaya-libre';
+  src: url('./assets/abhaya-libre/AbhayaLibre-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fuente-bonita';
+  src: url('./assets/wedding_in_the_starlight/Wedding.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,35 @@
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.first-section,
+.second-section,
+.third-section, 
+.fourth-section {
+
+    width: 100%;
+    min-height: 80vh;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url('/src/assets/Sin\ título-2_Mesa\ de\ trabajo\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second-section, .third-section, .fourth-section {
+    background-image: url('../assets/Recurso2.png');
+    min-height: 60vh;
+
+}
