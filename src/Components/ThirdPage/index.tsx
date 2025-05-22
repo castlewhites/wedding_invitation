@@ -8,7 +8,7 @@ const ThirdPage = () => {
             <div className="page__info">
                 <img style={{ width: "45px" }} src={Icon2} alt="Calendario" />
                 <h2 className="subtitle">SAVE THE DATE</h2>
-                <h1 className="names">Camilo y Aleksandra</h1>
+                <h1 className="names">Camilo & Aleksandra</h1>
                 <p className="date">Lugar</p>
             </div>
             <div>

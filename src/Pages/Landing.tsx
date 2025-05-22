@@ -2,7 +2,7 @@ import { useRef } from "react";
 import FirstPage from "../Components/FirstPage/Index"
 import SecondPage from "../Components/SecondPage"
 import ThirdPage from "../Components/ThirdPage"
-import FourthPage from "../Components/FourthPage"
+//import FourthPage from "../Components/FourthPage"
 
 import "./styles.css"
 
@@ -30,9 +30,9 @@ function Landing() {
         <section ref={thirdRef} className='third-section'>
             <ThirdPage />
         </section>
-        <section ref={fourthRef} className='fourth-section'>
+        {/* <section ref={fourthRef} className='fourth-section'>
             <FourthPage />
-        </section>
+        </section> */}
         
     </main>
   )
