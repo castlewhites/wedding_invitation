@@ -29,12 +29,12 @@ export const translation = {
     "en": "10/04/25",
     "pl": "04.10.25"
   },
-  "fecha_y_hora": {
+  "date_time": {
     "es": "Fecha y hora",
     "en": "Date & Time",
     "pl": "Data i godzina"
   },
-  "lugar": {
+  "place": {
     "es": "Lugar",
     "en": "Place",
     "pl": "Miejsce"

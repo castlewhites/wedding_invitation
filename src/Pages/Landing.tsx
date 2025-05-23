@@ -2,6 +2,7 @@ import { useRef } from "react";
 import FirstPage from "../Components/FirstPage/Index"
 import SecondPage from "../Components/SecondPage"
 import ThirdPage from "../Components/ThirdPage"
+import { guests } from "../assets/constants/guest";
 //import FourthPage from "../Components/FourthPage"
 
 import "./styles.css"
@@ -15,6 +16,9 @@ function Landing() {
   const scrollToSection = (ref: React.RefObject<HTMLElement | null>) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
+   const params = new URLSearchParams(window.location.search);
+    const guestSlug = params.get("guest");
+    const guest = guests.find(g => g.slug === guestSlug) || guests[0];
 
   return (
     <main className="main-container" >
@@ -22,13 +26,16 @@ function Landing() {
           <FirstPage 
             scrollToSecond={() => scrollToSection(secondRef)}
             scrollToThird={() => scrollToSection(thirdRef)}
-            scrollToFourth={() => scrollToSection(fourthRef)} />
+            scrollToFourth={() => scrollToSection(fourthRef)} 
+            guest={guest}
+          />
+           
         </section>
         <section ref={secondRef} className='second-section'>
-            <SecondPage />
+            <SecondPage guest={guest}/>
         </section>
         <section ref={thirdRef} className='third-section'>
-            <ThirdPage />
+            <ThirdPage guest={guest}/>
         </section>
         {/* <section ref={fourthRef} className='fourth-section'>
             <FourthPage />

@@ -1,15 +1,17 @@
 import Icon2 from "../../assets/Recurso 18.svg"
+import { translation } from "../../assets/constants/translations";
 
 import './styles.css';
 
-const ThirdPage = () => {
+const ThirdPage = ({guest}) => {
+    const lang = guest.lang
     return (
         <section className="save-date-section">
             <div className="page__info">
                 <img style={{ width: "45px" }} src={Icon2} alt="Calendario" />
-                <h2 className="subtitle">SAVE THE DATE</h2>
+                <h2 className="subtitle">{translation.save_the_date[lang]}</h2>
                 <h1 className="names">Camilo & Aleksandra</h1>
-                <p className="date">Lugar</p>
+                <p className="date">{translation.place[lang]}</p>
             </div>
             <div>
                 <div className="iframe-container" >
