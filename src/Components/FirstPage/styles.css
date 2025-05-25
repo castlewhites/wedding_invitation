@@ -1,19 +1,22 @@
 .save-date-section{
-  height: 90%;
   width: 100%;
-  padding: 40px 40px;
+  height: auto;
+  min-height: 600px;
+  padding: 20px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Distribuye bien el contenido */
   align-items: center;
   text-align: center;
+  position: relative;
 
 }
 .subtitle {
 
   font-family: 'abhaya-libre', cursive;
   margin-bottom: 10px;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .names {
   font-family: "Monsieur La Doulaise", cursive;
@@ -31,7 +34,7 @@
 }
 
 .guests {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: 'abhaya-libre', cursive;
   
   margin-bottom: 20px;
@@ -39,11 +42,12 @@
 }
 
 .wedding-button {
+  width: fit-content;
   background: linear-gradient(to right, #3992ad, #143760);  color: rgba(255, 255, 255, 0.882);
   border: none;
   border-radius: 20px;
-  padding: 5px 15px;
-  font-size: 0.8rem;
+  padding: 5px 20px;
+  font-size: 1.3rem;
   font-weight: normal;
   font-family: 'abhaya-libre', cursive;
   margin-bottom: 10px;
@@ -51,7 +55,7 @@
 
 .wedding-date {
   font-family: 'abhaya-libre', cursive;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .icons-section {
@@ -69,13 +73,15 @@
   font-size: 12px;
 }
 
+.icon-card p {
+font-size: 1rem;
+}
+
 .icon-card img {
   width: 50px;
   height: 50px;
   margin-bottom: 5px;
 }
-
-
 
 
 @media screen and (max-width: 375px) {
@@ -93,3 +99,19 @@
     font-size: 10px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .save-date-section {
+    padding: 16px;
+  }
+
+  .wedding-button {
+    font-size: 1rem;
+    padding: 5px 16px;
+  }
+
+  .guests {
+    font-size: 1.2rem;
+  }
+}
+

@@ -18,15 +18,15 @@
     font-size: 2.7rem;
     font-weight: 500;
     color: black;
-    margin: 0;
+    margin: 20px 0;
 }
 .date{
-    width: 120px;
+    width: fit-content;
     background: linear-gradient(to right, #3992ad, #143760);  color: rgba(255, 255, 255, 0.882);
     border: none;
     border-radius: 20px;
     padding: 5px 15px;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
     margin: 0 auto;
     font-weight: normal;
     font-family: 'abhaya-libre', cursive;

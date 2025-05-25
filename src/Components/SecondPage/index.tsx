@@ -2,9 +2,16 @@
 import Icon1 from "../../assets/Recurso 37.svg"
 import Cel from "../../assets/formato_fecha.png"
 import { translation } from "../../assets/constants/translations";
+
+import { Guest } from "../../assets/constants/guest";
 import './styles.css';
 
-const SecondPage = ({guest}) => {
+type ThirdPage = {
+    guest: Guest;
+}
+
+
+const SecondPage = ({guest}: ThirdPage) => {
     const lang = guest.lang
     return (
         <section className="save-date-section">

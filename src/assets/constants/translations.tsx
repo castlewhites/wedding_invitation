@@ -1,8 +1,8 @@
 export const translation = {
   "save_the_date": {
-    "es": "Reserva la fecha",
-    "en": "Save the date",
-    "pl": "Zapisz datę"
+    "es": "SAVE THE DATE",
+    "en": "SAVE THE DATE",
+    "pl": "SAVE THE DATE"
   },
   "names": {
     "es": "Camilo y Aleksandra",
@@ -23,6 +23,11 @@ export const translation = {
     "es": "A nuestra boda",
     "en": "To our wedding",
     "pl": "Na nasz ślub"
+  },
+  "more_info": {
+    "es": "Pronto más información",
+    "en": "More info will follow",
+    "pl": "Więcej informacji wkrótce"
   },
   "date": {
     "es": "04.10.25",

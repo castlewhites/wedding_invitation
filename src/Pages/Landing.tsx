@@ -4,7 +4,6 @@ import SecondPage from "../Components/SecondPage"
 import ThirdPage from "../Components/ThirdPage"
 import { guests } from "../assets/constants/guest";
 //import FourthPage from "../Components/FourthPage"
-
 import "./styles.css"
 
 

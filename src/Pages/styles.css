@@ -1,35 +1,35 @@
 .main-container {
     width: 100%;
-    min-height: 100vh;
-    justify-content: center;
-    margin: 0;
+    max-width: 400px;
+    height: 100vh;
+    margin: 0 auto;
     overflow-x: hidden;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .first-section,
 .second-section,
-.third-section, 
+.third-section,
 .fourth-section {
-
     width: 100%;
-    min-height: 80vh;
-
-    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 0 auto;
     background-image: url('../assets/main_bckg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
 }
 
 .second-section, .third-section, .fourth-section {
     background-image: url('../assets/Recurso2.png');
-    min-height: 60vh;
+
 
 }
